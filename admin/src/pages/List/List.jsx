@@ -6,6 +6,7 @@ import {toast} from "react-toastify"
 const List = ({url}) => {
 
   const [list,setList] = useState([]);
+  const [categories,setCategories] = useState([]);
 
   const fetchList = async () => {
     const response = await axios.get(`${url}/api/food/list`);
@@ -17,6 +18,7 @@ const List = ({url}) => {
       toast.error("Error")
     }
   }
+
 
   const removeFood = async(foodId) => {
     const response = await axios.post(`${url}/api/food/remove`,{id:foodId});
@@ -45,6 +47,10 @@ const List = ({url}) => {
         <b>Price</b>
         <b>Action</b>
       </div>
+
+
+
+
       {list.map((item,index)=>{
         return (
           <div key={index} className='list-table-format'>

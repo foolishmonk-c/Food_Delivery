@@ -154,6 +154,14 @@
     transform: rotate(360deg);
     transition: all .3s;
 }
+.top-banner {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+    margin-bottom: 10px;
+}
+
 
 
 :root {

@@ -1,6 +1,6 @@
 # Hangry
 
-Hangry is a full-stack web application built using the MERN (MongoDB, Express.js, React, Node.js) stack. It aims to provide users with a smooth and interactive experience to explore and order food when they're feeling "hangry" (hungry + angry).
+Nawab Delivery is a full-stack web application built using the MERN (MongoDB, Express.js, React, Node.js) stack. It aims to provide users with a smooth and interactive experience to explore and order food when they're feeling "Nawab Delivery" (Nawab + Delivery).
 
 ## Tech Stack
 
@@ -18,18 +18,12 @@ Hangry is a full-stack web application built using the MERN (MongoDB, Express.js
 
 ## Table of Contents
 
-- [Live Link](#live-link)
 - [Features](#features)
 - [Tech Stack](#tech-stack)
 - [Installation](#installation)
 - [Usage](#usage)
 - [API Endpoints](#api-endpoints)
 - [Contributing](#contributing)
-- [License](#license)
-
-## Live-Link
-
-- You can view the live link [here.](https://hangry-frontend.onrender.com/)
 
 ## Features
 
@@ -50,19 +44,13 @@ Hangry is a full-stack web application built using the MERN (MongoDB, Express.js
 
 ## Installation
 
-1. Clone the repository:
-
-    ```bash
-    git clone https://github.com/aayushai/Hangry.git
-    ```
-
-2. Navigate to the project directory:
+1. Navigate to the project directory:
 
     ```bash
     cd Hangry
     ```
 
-3. Install dependencies for both frontend and backend:
+2. Install dependencies for both frontend and backend:
 
     ```bash
     # Install backend dependencies
@@ -74,7 +62,7 @@ Hangry is a full-stack web application built using the MERN (MongoDB, Express.js
     npm install
     ```
 
-4. Set up environment variables:
+3. Set up environment variables:
 
     - Create a `.env` file in the `backend` folder and configure the following variables:
       ```bash
@@ -82,7 +70,7 @@ Hangry is a full-stack web application built using the MERN (MongoDB, Express.js
       JWT_SECRET=<your-jwt-secret>
       ```
 
-5. Run the application:
+4. Run the application:
 
     - Start the backend:
       ```bash
@@ -130,7 +118,3 @@ If you'd like to contribute to this project, please follow these steps:
 3. Commit your changes (`git commit -m 'Add some AmazingFeature'`).
 4. Push to the branch (`git push origin feature/AmazingFeature`).
 5. Open a pull request.
-
-## License
-
-This project is licensed under the MIT License.
