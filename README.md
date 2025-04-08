@@ -1,4 +1,4 @@
-# Hangry
+# NAWAB-DELIVERY
 
 Nawab Delivery is a full-stack web application built using the MERN (MongoDB, Express.js, React, Node.js) stack. It aims to provide users with a smooth and interactive experience to explore and order food when they're feeling "Nawab Delivery" (Nawab + Delivery).
 
