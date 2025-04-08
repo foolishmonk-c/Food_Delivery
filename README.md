@@ -47,7 +47,7 @@ Nawab Delivery is a full-stack web application built using the MERN (MongoDB, Ex
 1. Navigate to the project directory:
 
     ```bash
-    cd Hangry
+    cd NAWAB-DELIVERY
     ```
 
 2. Install dependencies for both frontend and backend:
